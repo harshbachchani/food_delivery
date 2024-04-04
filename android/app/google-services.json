@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "705446619139",
+    "project_id": "zapto-76990",
+    "storage_bucket": "zapto-76990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705446619139:android:040e8a4457fc24bb7c8636",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR19uVmgejhGT0PvP7Q613YTPgF7KVFd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
