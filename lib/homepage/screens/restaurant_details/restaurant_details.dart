@@ -138,8 +138,8 @@ void initializedata(List<dynamic> carddata) {
   List<dynamic> a = restaurantinfo["cuisines"] ?? "";
   trestauinf["cuisines"] = a.join(',');
   trestauinf["deliverymsg"] = restaurantinfo["feeDetails"]["message"] ?? "";
-  String b = restaurantinfo["feeDetails"]["totalFee"].toString();
-  trestauinf["deliveryfee"] = b.substring(0, b.length - 2);
+
+  trestauinf["deliveryfee"] = "40";
   trestauinf["id"] = restaurantinfo["id"];
 
   for (int i = 0; i < menuinfo.length; i++) {
@@ -407,7 +407,7 @@ class RestaurantCard extends StatelessWidget {
                             SizedBox(
                               width: constraints.maxWidth * 0.9,
                               child: Text(
-                                "${trestauinf["distance"]} | ₹${trestauinf["deliveryfee"]} ${trestauinf["deliverymsg"]}",
+                                "${trestauinf["distance"]} | ₹${trestauinf["deliveryfee"] ?? 40} ${trestauinf["deliverymsg"]}",
                                 softWrap: true,
                                 textAlign: TextAlign.center,
                                 style: AppFont.krpimaryText(13,
