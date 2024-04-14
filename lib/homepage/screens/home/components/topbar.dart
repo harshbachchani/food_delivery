@@ -148,6 +148,7 @@ class TopBar extends StatelessWidget {
                                           addresscontroller.text,
                                           citycontroller.text);
                                       func();
+                                      // ignore: use_build_context_synchronously
                                       Navigator.pop(context);
                                     },
                                     child: Text(

@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:food_delivery/assets/fonts/app_font.dart';
 import 'package:food_delivery/constanst.dart';
